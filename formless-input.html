@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Autofill Testing on GitHub</title>
+    <title>Form-like, form-less inputs</title>
     <link rel="icon" href="/favicon.ico">
     <link rel="manifest" href="/manifest.json">
   </head>
@@ -12,9 +12,14 @@
     <p>
       <a href="index.html">Back to main</a>
     </p>
-    
+
     <p>
-      Username: <input type="text" name="username" id="password_name"><br>
+      Inputs that resemble login forms should be treated as such even if
+      the form tag isn't present.
+    </p>
+
+    <p>
+     Username: <input type="text" name="username" id="password_name"><br>
       Password: <input type="password" name="password" id="password_field"><br>
       <input type="submit" value="Submit" id="password_submit">
     </p>
