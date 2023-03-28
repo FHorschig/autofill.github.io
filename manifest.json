@@ -1,0 +1,26 @@
+{
+  "short_name": "FHorschig.io",
+  "name": "FHorschig.io — autofill and passwords test app",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/ico",
+      "sizes": "256x256"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#333",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#333",
+  "shortcuts": [
+    {
+      "name": "Passkeys in multiple iFrames",
+      "short_name": "Passkeys",
+      "description": "Use case for passkey testing",
+      "url": "/passkey-iframes.html",
+      "icons": [{ "src": "/favicon.ico", "sizes": "256x256" }]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IFrames to fields with passkey support</title>
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" type="text/css" href="default.css">
+  </head>
+
+  <body>
+    <p>
+      <h3>x-origin iframe to <a href="https://webauthn-codelab.glitch.me/">https://webauthn-codelab.glitch.me/</a></h3>
+      <iframe src="https://webauthn-codelab.glitch.me/" title="webauthn codelab"> </iframe>
+    </p>
+    <p>
+      <h3>x-origin iframe to <a href="https://webauthn-conditional-ui-demo.glitch.me/">https://webauthn-conditional-ui-demo.glitch.me/</a></h3>
+      <iframe src="https://webauthn-conditional-ui-demo.glitch.me/" title="conditional webauthn"> </iframe>
+    </p>
+    <p>
+      <h3>x-origin iframe to <a href="https://webauthn.io/">https://webauthn.io/</a></h3>
+      <p>(This page blocks x-frame access)</p>
+      <iframe src="https://webauthn.io" title="webauthn"> </iframe>
+    </p>
+
+    
+    <p>
+      <h3>Search form for fhorschig.github.io sending to example.com</h3>
+      <form name="suche" id="search_form" action="https://example.com/" method="post">
+        Search: <input type="text" name="search" id="seatch_name"><br>
+        <input type="submit" value="Submit" id="password_submit">
+      </form>
+    </p>
+  </body>
+
+</html>
